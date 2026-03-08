@@ -12,3 +12,8 @@ A simple power supply PCB designed for breadboard use.
 
 ## Tools Used
 - KiCad
+## 3D View
+![3D View](breadboard%20power%20supply_3d_image.png)
+
+## Schematic
+[View Schematic](schematic_image.pdf)
