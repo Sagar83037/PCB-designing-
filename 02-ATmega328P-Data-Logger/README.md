@@ -28,9 +28,6 @@ storing it in onboard EEPROM memory.
 - 3D View (PNG)
 - Gerber Files
 
-## 3D View
-![3D View](MCU_Data_Logger_3d_image.png)
-
 ## Tools Used
 - KiCad
 
