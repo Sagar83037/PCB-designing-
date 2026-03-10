@@ -16,3 +16,7 @@ KiCad 5
 Based on Elektor Labs – Tiny Solar Supply
 # Status
 Design Complete
+# 3d image
+![3D Render](docs/images/Solar_PCB_3d.png)
+# Schematic View 
+[Schematic](hardware/schematic/scheamtic_image.pdf)
