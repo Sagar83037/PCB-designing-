@@ -19,4 +19,4 @@ Design Complete
 # 3d image
 ![Solar PCB 3d](Solar%20PCB_3d.png)
 # Schematic View 
-[Schematic](Tiny_Solar_Power_Supply%20-%20Elecktor/scheamtic_image.pdf)
+[View Schematic](schematic_image.pdf)
