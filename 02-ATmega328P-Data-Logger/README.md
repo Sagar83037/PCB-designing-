@@ -36,3 +36,5 @@ Design Complete
 
 ## 3D View
 ![3D View](MCU%20Data%20Logger_3d_image.png)
+## schematic
+[View Schematic](schematic_image.pdf)
