@@ -19,4 +19,4 @@ Design Complete
 # 3d image
 ![Solar PCB 3d](Solar%20PCB_3d.png)
 # Schematic View 
-[View Schematic](schematic_image.pdf)
+[View Schematic](View_schematic_image.pdf)
