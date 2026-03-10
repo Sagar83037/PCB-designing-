@@ -5,7 +5,7 @@ ReferenceComponentDescriptionU1AP3015 / AP3015AStep-up DC/DC converterL1ASPI-063
 # Output Voltage
 VOUT = 1.23 × (1 + R1/R2) → default 3.3 V
 # Files
-Schematic (PDF)
+scheamtic_image.pdf
 3D View (PNG)
 Gerber Files
 
