@@ -41,8 +41,7 @@ KiCad
 Design Complete
 
 # 3D Image
-
-
+![3d view](Trnasformerless_PowerSupply_3d_image.png)
 
 # Schematic View
 
