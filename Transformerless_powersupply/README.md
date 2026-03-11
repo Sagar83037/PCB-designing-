@@ -45,4 +45,4 @@ Design Complete
 
 # Schematic View
 
-
+[VIEW](scheamtic_image.pdf)
