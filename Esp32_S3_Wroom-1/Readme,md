@@ -1,1 +1,111 @@
+# ESP32-S3 Custom Development Board
 
+This project is a custom-designed ESP32-S3-WROOM-1 development board created from scratch using KiCad. The goal was to move beyond theoretical understanding and build a complete, working PCB — from schematic design to layout and validation.
+
+---
+
+# Overview
+
+The board is based on the ESP32-S3-WROOM-1 module and includes essential components such as:
+- 3.3V voltage regulation
+- USB interface for power and communication
+- Reset (EN) and Boot (GPIO0) circuits
+- GPIO header breakout for external connections
+- Proper decoupling and grounding
+
+---
+
+# Features
+
+- ESP32-S3-WROOM-1 module integration  
+- USB Type-C interface  
+- On-board 3.3V LDO regulator  
+- Reset and Boot buttons  
+- GPIO breakout headers  
+- Ground plane implementation  
+- Compact and clean layout  
+
+---
+
+# Design Flow
+
+1. Studied ESP32-S3 datasheet and reference schematics  
+2. Created schematic in KiCad  
+3. Assigned footprints and validated connections  
+4. Performed ERC checks and resolved critical issues  
+5. Designed PCB layout with proper component placement  
+6. Routed signals and optimized trace paths  
+7. Implemented GND copper pour and via stitching  
+8. Performed DRC checks and final validation  
+9. Generated Gerber files for manufacturing  
+
+---
+
+# Key Learnings
+
+- Converting datasheet information into a working schematic  
+- Importance of decoupling capacitors in stable power design  
+- Understanding GND planes and return current paths  
+- Debugging ERC/DRC errors and identifying which ones matter  
+- Antenna keep-out area for RF performance  
+- Basics of USB differential pair routing  
+- Via usage for grounding and signal integrity  
+
+---
+
+# Routing Challenge & Solution
+
+One of the main challenges was routing congestion near the ESP32 module. Initially, traces were heavily criss-crossed.
+
+This was resolved by:
+- Reworking component placement  
+- Rearranging header pins to align better with GPIO layout  
+
+This significantly improved routing clarity and reduced complexity.
+
+**Key takeaway:** Routing problems are often placement problems.
+
+---
+
+# Additional Implementation
+
+To validate the board, a simple application was built:
+
+- LDR (photoresistor) based light sensing  
+- ESP32-controlled LED  
+- No breadboard used — directly implemented on the PCB  
+
+This helped verify both hardware design and usability.
+
+---
+
+# Tools Used
+
+- KiCad (Schematic + PCB Design)  
+- ESP32-S3 Datasheet & Reference Design  
+
+---
+
+# Future Improvements
+
+- Improve USB differential routing precision  
+- Add ESD protection for USB  
+- Optimize ground via stitching  
+- Refine power trace width and distribution  
+
+---
+
+# Files Included
+
+- Schematic files  
+- PCB layout files  
+- Gerber files  
+- 3D renders  
+
+---
+
+# Feedback
+
+Suggestions and improvements are always welcome. This is a learning project, and feedback will help improve future designs.
+
+---
